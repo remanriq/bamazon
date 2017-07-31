@@ -86,13 +86,13 @@ console.log("-----------------------------");
         var total = res[0].price * answer.quantity;
         console.log('\n Your total is $' + total.toFixed(2) + '\n thank you!');
         // Order completed
-        start();
+        
           
       } else {
         //If not enought inventory notify customer and prompt customer for desire to shop more
-        console.log('\n  Sorry, Insufficient quantity to fulfill your order!\n');
+        console.log('\n  Sorry, Insufficient quantity to fulfill your order! Try again!\n');
         // Order not completed
-        
+        start();
     };
   })
 })
