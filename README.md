@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 # bamazon
 
   In order to create the Bamazon application, I first installed the npm packages 'inquirer', and 'mysql'. Inquirer is necessary to install, so I can create a dynamic app allowing the user to input their desired item and quantity. Mysql package allows me to connect to my database where I have created my bamazon database using sql. In my Sql workbench I created a bamazon databse where I created a table holding the inventory for the bamazon store. Then, I connected my .js file with my database using the port and connected to Bamazon.db. 
